@@ -15,7 +15,7 @@ async (conn, mek, m, { from, reply }) => {
         const message = `
 💬 "${quote.content}"
 - ${quote.author}
-POWERED BY QUEEN ANJU-MD QUOTES
+POWERED BY Anas En Najjari
         `;
         return reply(message);
     } catch (e) {
