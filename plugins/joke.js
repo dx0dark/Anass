@@ -21,8 +21,8 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-*© 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝘽𝙊𝙏 - MD* 
-*💻 GitHub:* github.com/Mrrashmika/Queen_Anju-MD `;
+*© Anas En Najjari* 
+*💻 Insta:* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s `;
 
         return reply(jokeMessage);
     } catch (e) {
