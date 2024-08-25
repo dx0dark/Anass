@@ -18,13 +18,13 @@ const voice = {
 }
 
 let aliveMessage = ` 
-⫷⦁[ * '-'_꩜ 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝘽𝙊𝙏 ꩜_'-' * ]⦁⫸ 
+⫷⦁[ * '-'_꩜ Anas En Najjari ꩜_'-' * ]⦁⫸ 
 
 *Hey there!* 
 
  > 🟢 *Queen Anju WhatsApp Bot* is up and running!
            Runtime : ${runtime(process.uptime())}
- > 🛠️ *Created by:* Janith Rashmika 
+ > 🛠️ *Created by:* Anas En Najjari 
  
 *Here's what I can do:* 
 💿 *Download Songs & Videos* 
@@ -35,8 +35,8 @@ let aliveMessage = `
 > *Stay connected and enjoy the services!* 
 
 
-*© 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝘽𝙊𝙏 - MD* 
-*💻 GitHub:* github.com/Mrrashmika/Queen_Anju-MD `
+*© Anas En Najjari* 
+*💻 insta:* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s `
 
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
