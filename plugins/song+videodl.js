@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * '-'_꩜ 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝙎𝙊𝙉𝙂 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸
+⫷⦁[ * '-'_꩜ Anas En Najjari ꩜_'-' * ]⦁⫸
 
 🎵 *Song Found!* 
 
@@ -27,12 +27,12 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎧 *Enjoy the music brought to you by* *Queen Anju Bot*! 
+🎧 *Enjoy the music brought to you by* *Anas En Najjari*! 
 
-> *Created with ❤️ by Janith Rashmika* 
+> *Created with ❤️ by HSVXDX* 
 
-> *© 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝘽𝙊𝙏 - MD* 
-*💻 GitHub:* github.com/Mrrashmika/Queen_Anju-MD  
+> *© Anas En Najjari* 
+*💻 insta:* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s  
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
