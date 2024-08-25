@@ -40,7 +40,7 @@ try{
 
   await m.react('✅');
   let video = data.url;
-  let dev = '© 2024 Queen Anju FB Downloader | Download with ease, cherish forever.'
+  let dev = '© 2024 Anas En Najjari FB Downloader | Download with ease, cherish forever.'
   
   try {
     await conn.sendMessage(m.chat, { video: { url: video }, caption: dev, fileName: 'fb.mp4', mimetype: 'video/mp4' }, { quoted: m });
