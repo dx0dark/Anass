@@ -24,8 +24,8 @@ async (conn, mek, m, { from, reply }) => {
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-*© 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝘽𝙊𝙏 - MD* 
-*💻 GitHub:* github.com/Mrrashmika/Queen_Anju-MD  
+*© Anas En Najjari* 
+*💻 Insta:* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s  
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
