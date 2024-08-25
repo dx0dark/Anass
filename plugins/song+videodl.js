@@ -70,7 +70,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * '-'_꩜ 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝙑𝙄𝘿𝙀𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸ 
+⫷⦁[ * '-'_꩜ ANAS EN NAJJARI 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 ꩜_'-' * ]⦁⫸ 
 
 🎥 *Video Found!* 
 
@@ -80,12 +80,12 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *Enjoy the video brought to you by* *Queen Anju Bot*! 
+🎬 *Enjoy the video brought to you by* *Anas En Najjari*! 
 
-> *Created with ❤️ by Janith Rashmika* 
+> *Created with ❤️ by HSVXDX* 
 
-> *© 𝙌𝙐𝙀𝙀𝙉 𝘼𝙉𝙅𝙐 𝘽𝙊𝙏 - MD* 
-*💻 GitHub:* github.com/Mrrashmika/Queen_Anju-MD
+> *© Anas En Najjari* 
+*💻 Insta:* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
