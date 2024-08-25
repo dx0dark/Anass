@@ -6,7 +6,7 @@ const {runtime} = require('../lib/functions')
 cmd({
     pattern: "menu",
     desc: "To get the menu.",
-    react: "😚",
+    react: "🔻",
     category: "main",
     filename: __filename
 },
@@ -31,16 +31,16 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 }
 
 let madeMenu = `
-🌟👑 𝗤𝘂𝗲𝗲𝗻_𝗔𝗻𝗷𝘂 𝗠𝗗 - 𝗠𝗮𝗶𝗻 𝗠𝗲𝗻𝘂 👑🌟
+🌟🔻 Anas En Najjari - Main Menu 🔻🌟
 
       👋 HELLO, ${pushname}!
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗤𝘂𝗲𝗲𝗻_𝗔𝗻𝗷𝘂! ✨ 
+🔻 FREE Palestine! 🔻 
 
 📊 *𝗕𝗼𝘁 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻:*
 ────────────────────
 ⏳ *𝗥𝘂𝗻𝘁𝗶𝗺𝗲:* ${runtime(process.uptime())}
-👤 *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* 𝗝𝗮𝗻𝗶𝘁𝗵 𝗥𝗮𝘀𝗵𝗺𝗶𝗸𝗮
+👤 *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* HSVXDX
 📞 *𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿:* ${config.BOT_NUMBER}
 ────────────────────
 
@@ -84,8 +84,8 @@ ${menu.search}
 ${menu.other}
 
 ────────────────────
-*© 𝗤𝘂𝗲𝗲𝗻_𝗔𝗻𝗷𝘂 𝗕𝗼𝘁 - MD* 
-💻 *GitHub:* github.com/Mrrashmika/Queen_Anju-MD
+*© Anas En Najjari* 
+💻 *Insta:* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s
  
 
 `
