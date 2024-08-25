@@ -14,10 +14,10 @@ try{
 let about = ` HELLOW THEIR ${senderNumber} I AM QUEEN_ANJU WHATSAPP BOT 
               CREATED BY GAMING RASH(JANITH RASHMIKA)..
               
-              > *© Qᴜᴇᴇɴ ᴀɴᴊᴜ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ*
-              > *ɢɪᴛʜᴜʙ :* github.com/Mrrashmika/Queen_Anju-MD
+              > *© Anas En Najjari*
+              > *Insta :* https://www.instagram.com/najjari_anas?igsh=bDVheWg2YWhoZ25s
               
-              THANKS FOR USING QUEEN ANJU WHATSAPP BOT MD`
+              THANKS FOR USING Anas En Najjari WHATSAPP BOT MD`
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:about},{quoted: mek})
 }catch(e){
 console.log(e)
