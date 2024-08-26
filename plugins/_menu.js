@@ -4,25 +4,6 @@ const os = require("os")
 const {runtime} = require('../lib/functions')
 
 cmd({
-    pattern: "alive",
-    desc: "To Check the bot online or no.",
-    react: "🛠️",
-    category: "main",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-
-const voice = {
-    alive: 'media/Linda.mp3'
-}
-
-const config = require('../config')
-const {cmd , commands} = require('../command')
-const os = require("os")
-const {runtime} = require('../lib/functions')
-
-cmd({
     pattern: "menu",
     desc: "To get the menu.",
     react: "🔻",
