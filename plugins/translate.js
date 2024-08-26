@@ -28,7 +28,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-> QUEEN ANJU-MD`;
+> Anas En Najjari`;
 
         return reply(translationMessage);
     } catch (e) {
