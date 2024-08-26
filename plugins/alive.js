@@ -22,7 +22,7 @@ let aliveMessage = `
 
 *Hey there!* 
 
- > 🟢 *Queen Anju WhatsApp Bot* is up and running!
+ > 🟢 *Anas En Najjari WhatsApp Bot* is up and running!
            Runtime : ${runtime(process.uptime())}
  > 🛠️ *Created by:* Anas En Najjari 
  
