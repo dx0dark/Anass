@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let about = ` HELLOW THEIR ${senderNumber} I AM QUEEN_ANJU WHATSAPP BOT 
+let about = ` HELLOW THEIR ${senderNumber} i am Anas En Najjari WHATSAPP BOT 
               CREATED BY GAMING RASH(JANITH RASHMIKA)..
               
               > *© Anas En Najjari*
