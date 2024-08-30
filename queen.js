@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94717775628']
+const ownerNumber = ['212657235700']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -70,21 +70,21 @@ console.log('Plugins installed successful ✅')
 console.log('Queen_Anju connected to whatsapp ✅')
 
 let up = `
-🚀 **Queen_Anju MD Connected Successfully!** ✅ 
+🚀 **Anas En Najjari Connected Successfully!** ✅ 
 
---- **🎉 Welcome to Queen_Anju MD!** 🎉 
+--- **🎉 Welcome to Anas En Najjari!** 🎉 
 
 **🔹 PREFIX:** ${prefix}
 
-**🔹 OWNER:**  ${ownerNumber}
+**🔹 OWNER:**  ${212657235700}
 
---- Thank you for using **Queen_Anju MD**. 
+--- Thank you for using **Anas En Najjari**. 
 We're here to make your experience enjoyable and seamless. 
 If you need any help or have questions, don't hesitate to ask. 
 
 **Enjoy your time with us!** 😊 `;
 
-conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/adc46970456c26cad0c15.jpg` }, caption: up })
+conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/48e22d72d6efcc2fd95a1.jpg` }, caption: up })
 
 }
 })
