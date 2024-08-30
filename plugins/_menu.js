@@ -94,9 +94,3 @@ reply(`${e}`)
 }
 })
 
-const voice = {
-    alive: 'media/Linda.mp3'
-}
-
-let aliveMessage = ` 
-⫷⦁[ * '-'_꩜ Anas En Najjari ꩜_'-' * ]⦁⫸
